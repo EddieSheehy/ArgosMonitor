@@ -34,6 +34,7 @@ def Argos(s, profilex):
 
     result = s.get(url,headers=headers).text
     soup = bs(result, 'lxml')
+    print(soup)
     while 1:
         hm = soup.find('table').find_all('tr')[13].find_all('td')
         #print(hm[profilex+1].get('class')) #PS5 Disk
