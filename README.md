@@ -7,6 +7,3 @@ This project was a simple script which used Heroku to run the script 24/7. It wo
 ```bash
 python3 Argos.py
 ```
-
-## Example of Discord Webhook
-![Here](images/)
